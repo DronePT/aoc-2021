@@ -4,8 +4,10 @@ export const createTimer = () => {
     reset() {
       last = Date.now();
     },
-    print() {
-      console.warn(`took ${Date.now() - last}ms`);
+    print(label?: string) {
+      console.warn(
+        `${(label && `${label}: `) || ''}took ${Date.now() - last}ms`
+      );
       this.reset();
     },
   };
