@@ -1,10 +1,10 @@
 import * as fs from 'fs';
 import * as path from 'path';
 
-import { partOne, partTwo } from './day13/day13';
+import { partOne, partTwo } from './day13/puzzle';
 
 const input = fs
-  .readFileSync(path.join(__dirname, './day13/day13.txt'))
+  .readFileSync(path.join(__dirname, './day13/input.txt'))
   .toString();
 
 console.warn('part one:');
