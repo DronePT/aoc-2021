@@ -8,6 +8,8 @@
       "type": "node",
       "request": "attach",
       "name": "Attach",
+      "timeout": 10000,
+      "autoAttachChildProcesses": true,
       "skipFiles": [
         "<node_internals>/**"
       ],
