@@ -14,7 +14,9 @@
         "<node_internals>/**"
       ],
       "port": 9229,
-      "sourceMaps": true
+      "sourceMaps": true,
+      "restart": true,
+
     }
   ]
 }
